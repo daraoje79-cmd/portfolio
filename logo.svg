@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .hex { fill: none; stroke: #515a47; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .dot { fill: #515a47; }
+    </style>
+  </defs>
+  
+  <!-- Outer hexagon -->
+  <path class="hex" d="M 100 20 L 160 50 L 160 150 L 100 180 L 40 150 L 40 50 Z"/>
+  
+  <!-- Middle hexagon -->
+  <path class="hex" d="M 100 40 L 145 65 L 145 135 L 100 160 L 55 135 L 55 65 Z"/>
+  
+  <!-- Inner hexagon -->
+  <path class="hex" d="M 100 60 L 130 75 L 130 125 L 100 140 L 70 125 L 70 75 Z"/>
+  
+  <!-- Center dot -->
+  <circle class="dot" cx="100" cy="80" r="6"/>
+  
+  <!-- Side dots -->
+  <circle class="dot" cx="85" cy="110" r="6"/>
+  <circle class="dot" cx="115" cy="110" r="6"/>
+</svg>
